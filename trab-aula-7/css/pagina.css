@@ -1,0 +1,36 @@
+body {
+    background-color: darkgrey;
+}
+
+h1 {
+    color: cadetblue;
+    text-align: center;
+}
+
+a:hover {
+    color: black;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+table {
+    width:25%;
+    height: 25%;
+    text-align: center;
+}
+
+tr, th, td {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+botao-msg {
+    background-color: bisque;
+    text-align: center;
+    border: none;
+}

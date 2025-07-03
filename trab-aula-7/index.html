@@ -2,9 +2,66 @@
 <html>
     <head>
         <title>Aula 7 - Tranalho</title>
+        <link rel="stylesheet" type="text/css" href="./css/pagina.css">
+
+
+    <script>
+        function mostraMSG() {
+            if (document.getElementById("msg-botao").innerText === "") {
+                document.getElementById("msg-botao").innerText="Bingo! Pena que to sem ideia pra mensagens motivadoras!";
+            } else {
+                document.getElementById("msg-botao").innerText="";
+            }
+        }
+    </script>
+
     </head>
     <body>
-        
-        <script src="" async defer></script>
+        <h1>Ricardo Quadros</h1>
+
+        <p>Breve autobiografia:</p>
+        <p>Ricardo, tenho 55 anos, moro em Lisboa, natural de Porto Alegre, RS, gosto de filmes de terror, 
+            caminhadas à beiramar e encontrar com os amigos. Não costumo sair muito em festas ou baladas, 
+            prefiro ficar em casa.
+        </p>
+
+        <button class="botao-msg" onclick="mostraMSG()">
+            Clique para ver uma mensagem!
+        </button>
+        <div id="msg-botao"></div>
+
+        <ul style="line-height: 2;">
+            <li>Lego</li>
+            <li>Cozinhar</li>
+            <li>Bares</li>
+        </ul>
+
+        <br><br>
+        <img src="./images/barzinho.jpeg" />
+        <br><br><br>
+
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Foto</th>
+            </tr>
+            <tr>
+                <td>Thailandia</td>
+                <td><img src="./images/Thailand2.jpg" width="250" height="150"></td>
+            </tr>
+            <tr>
+                <td>Japao</td>
+                <td><img src="./images/Japan-2107x1406.jpg" width="250" height="150"></td>
+            </tr>
+            <tr>
+                <td>Australia</td>
+                <td><img src="./images/Australia1.jpg" width="250" height="150"></td>
+            </tr>
+        </table>
+
+        <br><br><br>
+        <a href="https://www.youtube.com/">Aqui tem tudo que preciso!</a>
+        <br><br><br>
+
     </body>
 </html>
